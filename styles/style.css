@@ -80,10 +80,11 @@
     padding: 70px;
     background-image: linear-gradient(180deg, rgb(221, 201, 25), rgb(218, 108, 5));
 }
-..gardent h1 {
+.gardent h1 {
     font-size: 40px;
+    color: white;
 }
-.global-btn {
+.gardent-btn {
     height: 50px;
     width: 140px;
     margin-top: 20px;
@@ -93,3 +94,55 @@
     font-weight: 700;
 }
 /* gardent style section end  */
+/* footer style start  */
+.footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+.footer-content {
+    padding: 150px;
+    display: flex;
+    gap: 200px;
+
+}
+.footer-content1 h1 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer-content1 p {
+    font-size: 20px;
+    color: rgb(189, 199, 194);
+}
+.footer-content2 h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.footer-content2 #email {
+    margin-top: 20px;
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-left: 20px;
+    color: rgb(250, 250, 250);
+}
+::placeholder {
+    color: white;
+}
+.footer-content2 button {
+    margin-top: 10px;
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    color: red;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+/* footer style end */
