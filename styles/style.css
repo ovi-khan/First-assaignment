@@ -51,3 +51,25 @@
     color: red;
 }
 /* failure style end */
+/* my plan style start  */
+.plan {
+    text-align: center;
+    font-size: 50px;
+}
+.my-plan {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 80px;
+    text-align: center;
+}
+.my-plan h1 {
+    font-weight: 800px;
+    margin-top: 15px;    
+}
+.my-plan p {
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(75, 69, 62);
+}
+/* my plan style end  */
