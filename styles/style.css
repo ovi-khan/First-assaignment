@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+}
+
+/* header style start */
+.header {
+    background-image: url(../images/banner/banner1.png);
+    height: 800px;
+    background-repeat: round;
+}
+.header-content {
+    text-align: right;
+    padding: 200px;
+}
+.header .header-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+.header .header-content p {
+    font-size: 25px;
+    margin-top: 16px;
+    color: rgb(95, 84, 84);
+}
+.btn {
+    height: 60px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+/* header style end */
+/* failure style start */
+.failure-sec {
+    display: flex;
+    margin: 200px;
+}
+.failure-details {
+    margin: 120px;
+}
+
+.failure-details h1 {
+    font-size: 50px;
+}
+.failure-details p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.failure-details p span {
+    color: red;
+}
+/* failure style end */
